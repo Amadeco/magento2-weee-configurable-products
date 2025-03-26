@@ -48,13 +48,13 @@ bin/magento setup:static-content:deploy
 
 This module addresses known issues and incorporates community feedback:
 
-- **Issue: FPT is not applied to configurable products #25554
+- **Issue**: FPT is not applied to configurable products #25554
 https://github.com/magento/magento2/issues/25554
 
-- **Issue: FPT not applied on configurable products (children) in checkout summary #28931
+- **Issue**: FPT not applied on configurable products (children) in checkout summary #28931
 https://github.com/magento/magento2/issues/28931
 
-- **Pull Request: Fixed Product Taxes (FPT) are not used from simple products #35883
+- **Pull Request**: Fixed Product Taxes (FPT) are not used from simple products #35883
 https://github.com/magento/magento2/pull/35883
 
 ## Compatibility
