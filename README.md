@@ -1,9 +1,9 @@
 # Amadeco WeeeConfigurableProducts Module for Magento 2
 
-[![Latest Stable Version](https://img.shields.io/github/v/release/Amadeco/module-weee-configurable-products)](https://github.com/Amadeco/module-weee-configurable-products/releases)
+[![Latest Stable Version](https://img.shields.io/github/v/release/Amadeco/magento2-weee-configurable-products)](https://github.com/Amadeco/magento2-weee-configurable-products/releases)
 [![Magento 2](https://img.shields.io/badge/Magento-2.4.x-brightgreen.svg)](https://magento.com)
 [![PHP](https://img.shields.io/badge/PHP-8.1|8.2|8.3-blue.svg)](https://www.php.net)
-[![License](https://img.shields.io/github/license/Amadeco/module-weee-configurable-products)](LICENSE)
+[![License](https://img.shields.io/github/license/Amadeco/magento2-weee-configurable-products)](LICENSE)
 
 [SPONSOR: Amadeco](https://www.amadeco.fr)
 
