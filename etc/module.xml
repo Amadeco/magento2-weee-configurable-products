@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Amadeco WeeeConfigurableProducts module
+ *
+ * @category  Amadeco
+ * @package   Amadeco_WeeeConfigurableProducts
+ * @copyright Ilan Parmentier
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Amadeco_WeeeConfigurableProducts">
+	    <sequence>
+            <module name="Magento_Weee" />
+            <module name="Magento_ConfigurableProducts" />
+        </sequence>
+    </module>
+</config>

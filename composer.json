@@ -1,0 +1,30 @@
+{
+    "name": "amadeco/module-weee-configurable-products",
+    "description": "Extends Magento Weee module for configurable products to prevent double taxation by adjusting WEEE tax calculation.",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Ilan Parmentier @ Amadeco",
+            "email": "dev@amadeco.fr",
+            "homepage": "https://www.amadeco.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "103.0.*",
+        "magento/module-configurable-product": "*",
+        "magento/module-weee": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amadeco\\WeeeConfigurableProducts\\": ""
+        }
+    }
+}

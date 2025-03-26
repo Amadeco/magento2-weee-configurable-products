@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+ * Amadeco WeeeConfigurableProducts module
+ *
+ * @category  Amadeco
+ * @package   Amadeco_WeeeConfigurableProducts
+ * @copyright Ilan Parmentier
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Override the Weee total model for quote calculations -->
+    <preference for="Magento\Weee\Model\Total\Quote\Weee" type="Amadeco\WeeeConfigurableProducts\Model\Total\Quote\Weee" />
+
+    <!-- Plugin to adjust Weee tax calculations for configurable products -->
+    <type name="Magento\Weee\Model\Tax">
+        <plugin name="Amadeco_WeeeConfigurableProducts::WeeeTax" type="Amadeco\WeeeConfigurableProducts\Plugin\WeeeTax" sortOrder="10" disabled="false"/>
+    </type>
+</config>
