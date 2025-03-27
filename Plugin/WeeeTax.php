@@ -68,7 +68,7 @@ class WeeeTax
      * @return DataObject[] WEEE tax attributes
      */
     public function aroundGetProductWeeeAttributes(
-        WeeeTax $subject,
+        BaseWeeeTax $subject,
         callable $proceed,
         Product $product,
         $shipping = null,
