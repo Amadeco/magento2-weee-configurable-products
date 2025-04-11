@@ -72,4 +72,4 @@ If you encounter any issues or have feature requests, please open an issue on ou
 
 ## License
 
-This module is licensed under the MIT License. See the LICENSE file for further details.
+This module is licensed under the Open Software License ("OSL") v3.0. See the [LICENSE.txt](LICENSE.txt) file for details.
