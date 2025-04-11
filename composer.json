@@ -3,7 +3,7 @@
     "description": "Extends Magento Weee module for configurable products to prevent double taxation by adjusting WEEE tax calculation.",
     "type": "magento2-module",
     "license": [
-        "MIT"
+        "OSL-3.0"
     ],
     "authors": [
         {
