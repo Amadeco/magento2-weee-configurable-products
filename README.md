@@ -1,4 +1,6 @@
-# Amadeco WeeeConfigurableProducts Module for Magento 2
+# confirmed Magento 2.4.8 core already covers configurable FPT (child-descending totals + ConfigurableVariationAttributePriority)
+
+## Amadeco WeeeConfigurableProducts Module for Magento 2
 
 [![Latest Stable Version](https://img.shields.io/github/v/release/Amadeco/magento2-weee-configurable-products)](https://github.com/Amadeco/magento2-weee-configurable-products/releases)
 [![Magento 2](https://img.shields.io/badge/Magento-2.4.x-brightgreen.svg)](https://magento.com)
@@ -7,19 +9,19 @@
 
 [SPONSOR: Amadeco](https://www.amadeco.fr)
 
-## Overview
+### Overview
 
 The Amadeco WeeeConfigurableProducts module addresses issues related to the calculation of Fixed Product Taxes (FPT) for configurable products in Magento 2. By adjusting the tax computations, the module ensures that FPT is correctly applied by averaging the tax amounts of the child products, overcoming limitations in Magento's default behavior.
 
-## Key Features
+#### Key Features
 
 - **Improved FPT Calculation**: Adjusts FPT for configurable products by averaging the tax amounts from child items.
 - **Seamless Integration**: Overrides Magento's default Weee tax calculation to provide more accurate tax totals on configurable products.
 - **Enhanced Compatibility**: Optimized for Magento 2.4.x and PHP 8.1, 8.2, 8.3.
 
-## Installation
+### Installation
 
-### Composer Installation
+#### Composer Installation
 
 Run the following commands from your Magento root directory:
 
@@ -31,7 +33,7 @@ bin/magento setup:di:compile
 bin/magento setup:static-content:deploy
 ```
 
-### Manual Installation
+#### Manual Installation
 
 1. Create directory `app/code/Amadeco/WeeeConfigurableProducts` in your Magento installation
 2. Clone or download this repository into that directory
@@ -44,7 +46,7 @@ bin/magento setup:di:compile
 bin/magento setup:static-content:deploy
 ```
 
-## References
+### References
 
 This module addresses known issues and incorporates community feedback:
 
@@ -57,19 +59,19 @@ https://github.com/magento/magento2/issues/28931
 - **Pull Request**: Fixed Product Taxes (FPT) are not used from simple products #35883
 https://github.com/magento/magento2/pull/35883
 
-## Compatibility
+### Compatibility
 
 - Magento 2.4.x
 - PHP 8.1, 8.2, 8.3
 
-## Contributing
+### Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md).
 
-## Support
+### Support
 
 If you encounter any issues or have feature requests, please open an issue on our GitHub repository.
 
-## License
+### License
 
 This module is licensed under the Open Software License ("OSL") v3.0. See the [LICENSE.txt](LICENSE.txt) file for details.
